@@ -60,7 +60,7 @@ def parse_args(epochs,l):
     parser.add_argument('--n-epochs', default=epochs, type=int,
                         help='Number of epochs')
 
-    parser.add_argument('--hidden-dims', type=list, nargs='+', default=[128,16],
+    parser.add_argument('--hidden-dims', type=list, nargs='+', default=[128,64],
                         help='Number of dimensions.')
 
     parser.add_argument('--lambda-', default=l, type=float,
