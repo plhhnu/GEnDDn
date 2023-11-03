@@ -11,7 +11,7 @@ seq_sim_matrix = pd.read_csv("data2/MNDR-lncRNA functional similarity matrix.csv
 str_sim_matrix = pd.read_csv("data2/MNDR-disease semantic similarity matrix.csv", header=0, index_col=0).values
 association = pd.read_csv("data2/MNDR-lncRNA-disease associations matrix.csv", header=0, index_col=0)
 #linear feature
-feature_MFl, feature_MFd = get_low_feature(16, 0.01, pow(10, -4), association.values)
+feature_MFl, feature_MFd = get_low_feature(64, 0.01, pow(10, -4), association.values)
 l = pd.DataFrame(feature_MFl)
 l.index = association.index.tolist()
 l.to_csv('./data2/data2_feature_MFl.csv')
