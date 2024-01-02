@@ -14,6 +14,30 @@ Default is 5-fold cross validation from $C V_{l}$ to $C V_{\text {ind }}$ on lnc
 ```Java
 python mian.py
  ```
+Default is 5-fold cross validation from $C V_{l}$ to $C V_{\text {ind }}$ on lncRNADisease and MNDR databases. To run this model：
+```Java
+python mian.py
+ ```
+Default is 5-fold cross validation from $C V_{l}$ to $C V_{\text {ind }}$ on lncRNADisease and MNDR databases. To run this model：
+```Java
+python mian.py
+ ```
+Default is 5-fold cross validation from $C V_{l}$ to $C V_{\text {ind }}$ on lncRNADisease and MNDR databases. To run this model：
+```Java
+python mian.py
+ ```
+Default is 5-fold cross validation from $C V_{l}$ to $C V_{\text {ind }}$ on lncRNADisease and MNDR databases. To run this model：
+```Java
+python mian.py
+ ```
+Default is 5-fold cross validation from $C V_{l}$ to $C V_{\text {ind }}$ on lncRNADisease and MNDR databases. To run this model：
+Default is 5-fold cross validation from $C V_{l}$ to $C V_{\text {ind }}$ on lncRNADisease and MNDR databases. To run this model：
+```Java
+python mian.py
+ ```
+```Java
+python mian.py
+ ```
 Extracting linear and nonlinear features for diseases and lncRNAs to run:
 ```Java
 python feature.py
